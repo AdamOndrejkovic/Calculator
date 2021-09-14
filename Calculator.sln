@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A41B5175-7700-477E-B05C-785453675A93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{345B822A-CA9E-4EEC-AA51-46C99AE350DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A41B5175-7700-477E-B05C-785453675A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A41B5175-7700-477E-B05C-785453675A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A41B5175-7700-477E-B05C-785453675A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345B822A-CA9E-4EEC-AA51-46C99AE350DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345B822A-CA9E-4EEC-AA51-46C99AE350DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345B822A-CA9E-4EEC-AA51-46C99AE350DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345B822A-CA9E-4EEC-AA51-46C99AE350DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

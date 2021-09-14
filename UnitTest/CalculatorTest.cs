@@ -168,8 +168,20 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void ModulusValidNumber()
+        [DataRow(2,2)]
+        [DataRow(14,5)]
+        [DataRow(63,10)]
+        [DataRow(150,34)]
+        [DataRow(500,125)]
+        public void ModulusValidNumber(int initialValue, int divider)
         {
+            _c.Add(initialValue);
+
+            int expectedValue = _c.Result % divider;
+            
+            _c.Modulus(divider);
+            
+            Assert.AreEqual(expectedValue,_c.Result);
         }
     }
 }
